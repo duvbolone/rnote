@@ -34,7 +34,7 @@ OutputBaseFilename=@INSTALLER_NAME@
 SetupIconFile={#meson_source_root}\crates\rnote-ui\data\icons\rnote.ico
 UninstallDisplayIcon = {app}\bin\{#MyAppExeName}
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
-;PrivilegesRequired=lowest
+PrivilegesRequired=lowest
 ChangesAssociations=yes
 DisableProgramGroupPage=yes
 Compression=lzma2/ultra64
